@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.back1 {
+    background-image: url(imagens/livros.jpg);
+}
+
+.promo {
+    width: 150px;
+}
+
+.offer {
+    font-size: xx-large;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+}
+
+.capa {
+    width: 150px;
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    color: cornsilk;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 170px;
+}
+
+.container2 {
+    background-color: #3E2723;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.container3 {
+    background-color: #3E2723;
+    height: 100%;
+    width: 100%;
+    
+    
+    padding: 30px;
+}
+
+.livros {
+    display: flex;
+    font-size: smaller;
+    flex-wrap: wrap;
+    
+}
+
+.clique {
+    border: 2px solid cornsilk;
+    color: black;
+    background-color: cornsilk;
+}
+
+.capa2 {
+    width: 159px;
+    padding: 10px;
+}
+
+.capa3 {
+    width: 169px;
+    padding: 10px;
+}
+
+.capa4 {
+    width: 160px;
+    height: 220px;
+    padding: 10px;
+}
+
+.capa5 {
+    width: 146px;
+    padding: 10px;
+}
+
+.capa6 {
+    width: 145px;
+    height: 217px;
+    padding: 10px;
+}
+
+#news {
+    color: cornsilk;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: x-large;
+    display: grid;
+    border: 2px solid cornsilk;
+}
+
+#nome {
+    font-size: small;
+}
+
+#email {
+    font-size: small;
+}
+
+#enviar {
+    font-size: large;
+}
+
+footer {
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: cornsilk;
+}
